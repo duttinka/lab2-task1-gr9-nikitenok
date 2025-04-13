@@ -22,6 +22,11 @@ void find_lucky_numbers(int start, int end) {
 }
 
 int main() {
-    find_lucky_numbers(100000, 999999);
-    return 0;
+           find_lucky_numbers(100000, 999999);
+           printf("program for variant 32:\n");
+           printf("finding all 6-digit lucky numbers\n\n");
+           printf("lucky numbers between 100000 and 999999:\n");
+           find_lucky_numbers(100000, 999999);
+               return 0;
+
 }
