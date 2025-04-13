@@ -27,6 +27,6 @@ int main() {
            printf("finding all 6-digit lucky numbers\n\n");
            printf("lucky numbers between 100000 and 999999:\n");
            find_lucky_numbers(100000, 999999);
-               return 0;
+           return 0;
 
 }
