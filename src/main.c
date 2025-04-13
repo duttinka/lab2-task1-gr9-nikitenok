@@ -10,7 +10,18 @@ bool is_lucky_number(int number) {
                (number % 10);
     return sum1 == sum2;
 }
+void find_lucky_numbers(int start, int end) {
+    int count = 0;
+    for (int i = start; i <= end; i++) {
+        if (is_lucky_number(i)) {
+            printf("%d\n", i);
+            count++;
+        }
+    }
+    printf("\ntotal lucky numbers: %d\n", count);
+}
 
 int main() {
+    find_lucky_numbers(100000, 999999);
     return 0;
 }
