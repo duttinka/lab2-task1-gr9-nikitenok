@@ -1,11 +1,6 @@
 # Overview
 
-It is public template of assignment `"labrabota 3"` for FPMI students
+It is public template of assignment `"labrabota 2 task 1"` for FPMI students
 
-# Usage
+Nikitenok Diana 9 group
 
-Please, edit README and add some details, as instance **{add your last name, first name and group number}**.
-
-# Building
-
-Please, import repository and use for repl.it project, which is defined in the assignment "labrabota 3".
